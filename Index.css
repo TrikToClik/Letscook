@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#EBF4F6;
+}
+.halwa{
+font-size: 6rem;
+color:#071952;
+font-weight: 1000;
+}
+.cook{
+    font-size: 5rem;
+    color: #27b361;
+    font-weight: 600;
+}
+.niche{
+    font-size: 4.5rem;
+    font-weight: 1000;
+    color: #088395;
+}
+
+.loader {
+    border: 26px solid #8d8888;
+    border-radius: 50%;
+    border-top: 26px solid #071952;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
